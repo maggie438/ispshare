@@ -41,6 +41,7 @@ class Background : RenderableEntity {
           letter5.font = "45pt Arial"
           
           super.init(name:"Background")
+          System.out.println("hi")
       }
       override func setup(canvasSize: Size, canvas: Canvas) {
         var horzX = 300
