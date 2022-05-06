@@ -49,6 +49,7 @@ class Background : RenderableEntity {
     var undlines: Rectangle = Rectangle(rect:Rect(topLeft:Point(x:50, y:100), size:Size(width:100, height:50)))
     var box: Rectangle = Rectangle(rect:Rect(topLeft:Point(x:50, y:100), size:Size(width:100, height:50)))
 
+<<<<<<< HEAD
 
     init() {
         // Using a meaningful name can be helpful for debugging
@@ -193,6 +194,13 @@ class Background : RenderableEntity {
         head.center = Point(x: 307, y: 297)
         canvas.render(title, letter1, letter2, letter3, letter4, letter5, letterA, letterB, letterC, letterD, letterE, letterF, letterG, letterH, letterI, letterJ, letterK, letterL, letterM, letterN, letterO, letterP, letterQ, letterR, letterS, letterT, letterU, letterV, letterW, letterX, letterY, letterZ, lineWidth, head)
     }
+=======
+      init() {
+          // Using a meaningful name can be helpful for debugging
+          super.init(name:"Background")
+          System.out.println("hi")
+      }
+>>>>>>> dccbe9ac5eb76a90ec9dd6f9de9463734f6515a4
 }
     
   
